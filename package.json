@@ -1,0 +1,15 @@
+{
+  "name": "indiakartify",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js --watch backend",
+    "seed": "node backend/seed.js",
+    "test": "echo \"Run backend tests: npm --prefix backend test\" && npm --prefix backend test",
+    "lint": "eslint . --ext .js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
